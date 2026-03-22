@@ -2,12 +2,17 @@
 # Exp 4 Experimental verification of frequency response of Analog fiber optic link
 # Fiber Optic Link Analysis (660nm)
 
-## AIM
+## NAME: SUNDARRAJAN K
+## REG NO: 212223060279
+
+## AIM:
+
 To analyze the relationship between input and received signal of a 660nm fiber optic cable using analog and digital link.
 
 ---
 
-## EQUIPMENTS REQUIRED
+## EQUIPMENTS REQUIRED:
+
 -	Link-B Kit with power supply.
 -	Patch chords.
 -	20MHz Dual Channel Oscilloscope.
@@ -15,13 +20,16 @@ To analyze the relationship between input and received signal of a 660nm fiber o
 -	1 Meter Fiber Cable.
 ---
 
-## THEORY
+## THEORY:
+
 Fiber optic links can be used for transmission of digital as well as analog signals. Basically a fiber optic link contains three main elements, a transmitter, an optical fiber and a receiver. The transmitter module takes the input signal in electrical form and then transforms it into optical (light) energy containing the same information. The optical fiber is the medium which takes the energy to the receiver. At the receiver light is converted back into electrical form with the same pattern as originally fed to the transmitter.
 
 TRANSMITTER:
+
 Fiber Optic transmitters are typically composed of a buffer, driver and Optical Source. The buffer electronics provides both an electrical connection and isolation between the transmitter and the electrical system supplying the data. The driver electronics provides electrical power to the Optical source in a fashion that duplicates the pattern of data being fed to the transmitter. Finally the optical source (LED) converts the electrical current to light energy with the same pattern. The LED SFH450V (950nm) supplied with this kit operates outside the visible light spectrum. Its Optical output is centered at near infrared wavelength of 950nm. The LED SFH756V (660nm) supplied with this kit operates at the visible light spectrum. Its Optical output is centered at wavelength of 660nm.
 
 RECEIVER:
+
 The function of the receiver is to convert the optical energy into electrical form, which is then conditioned to reproduce the transmitted electrical signal in it's original form. The detector SFH350V (Photo Transistor Detector) used in the kit has a transistor type output. The parameters usually considered in the case of detector are it's responsivity at peak wavelength and response time. SFH350V (Photo Transistor Detector) has responsivity of about 0.8mA/10uW at 660nm. But its response time is quite large and thus has lower bandwidth of about 300 KHz. When optical signal falls on the base of the transistor detector, proportional
  
 current flows through its emitter generating the voltage across the resistance connected between emitter and ground. This voltage is the duplication of the transmitted electrical signal, which can be amplified.
@@ -30,7 +38,7 @@ current flows through its emitter generating the voltage across the resistance c
 
 ---
 
-## PROCEDURE
+## PROCEDURE:
 
 -	Refer to the block diagram & carry out the following connections and settings.
 -	Connect the power supply with proper polarity to the kit link-B and switch it on.
@@ -66,27 +74,21 @@ current flows through its emitter generating the voltage across the resistance c
 
 ---
 
-## BLOCK DIAGR
-
-
----
-
 
 ## TABULATION  
 **Transmission through Analog Link**
-
-| Frequency (Hz) | Output Signal Amplitude (Vo) | Gain = Vo/Vi | Gain in dB |
-|----------------|------------------------------|--------------|------------|
-|                |                              |              |            |
+|
 
 ---
 
-## MODEL GRAPH
+## MODEL GRAPH:
 
-*(Insert model graph here)*
+<img width="1280" height="1008" alt="image" src="https://github.com/user-attachments/assets/e0b6fa9d-56a4-401e-bd7f-0838eeb1365e" />
+
 
 ---
 
-## RESULT
+## RESULT:
 
-*(Summarize observations and conclusions here)*
+The frequency response of the analog fiber optic link was experimentally studied by varying the input signal frequency and measuring the corresponding output amplitude.
+
