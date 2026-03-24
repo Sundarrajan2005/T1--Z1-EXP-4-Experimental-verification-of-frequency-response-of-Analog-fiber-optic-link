@@ -77,7 +77,10 @@ current flows through its emitter generating the voltage across the resistance c
 
 ## TABULATION  
 **Transmission through Analog Link**
-|
+
+![WhatsApp Image 2026-03-24 at 3 17 30 PM](https://github.com/user-attachments/assets/9ef04841-50a3-4f95-8c18-ad207b4ae926)
+
+
 
 ---
 
